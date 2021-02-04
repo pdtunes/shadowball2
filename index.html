@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="robots" content="noindex" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <title>Homepage</title>
+</head>
+
+<body>
+
+  <div class="header"> <a href="./index.html">
+      <img src="./img/Shadow_ball_logo.png" alt="Logo"> </a>´
+  </div>
+
+
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="./index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./html/shop.html">Shop</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+        aria-expanded="false">About us</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="./html/about.html">About us</a>
+        <a class="dropdown-item" href="./html/academy.html">Academy</a>
+        <a class="dropdown-item" href="./html/howdoesitwork.html">How does it work</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./html/blog.html">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./html/contactus.html">Contact us</a>
+    </li>
+    <li class="nav-item">
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+      <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+              title="Close Modal">&times;</span>
+            <img src="./img/Shadow_ball_logo.png" alt="Avatar" class="avatar">
+          </div>
+
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required> <br>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+              class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+    </li>
+  </ul>
+
+
+
+
+  <div class="jumbotron">
+    <img src="./img/herobanner.jpg" class="img-fluid" alt="Responsive image">
+    <a class="btn btn-primary btn-lg" href="./html/shop.html" role="button">Shop</a>
+    <p> Photo by DAVID ILIFF. License: CC BY-SA 3.0» </p>
+  </div>
+
+  <div class="container-wrapper">
+    <div class="container">
+      <h3>Featured Products</h3>
+      <div class="row">
+        <div class="col-sm">
+          <a href="./html/booster/bppacks5.html">
+            <h6>SHADOWBALL® PASS BOOSTER
+              PROGRAM PACK – SIZE 5 <br> <br> R499.00</h6>
+            <img src="./img/products/academy/academy.jpg" alt="SHADOWBALL® PASS BOOSTER
+          PROGRAM PACK – SIZE 5">
+          </a>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Add to cart</a>
+        </div>
+        <div class="col-sm">
+          <a href="./html/rugbyballs/matchball.html">
+            <h6>SHADOWBALL® CONSTRUCT 1.0
+              MATCH RUGBY BALL <br> <br> R229.00 – R349.00</h6>
+            <img src="./img/products/rugbyballs/rugbymatch.jpg" alt="SHADOWBALL® CONSTRUCT 1.0 MATCH RUGBY BALL">
+          </a>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Add to cart</a>
+        </div>
+        <div class="col-sm">
+          <a href="./html/rugbyballs/trainingball.html">
+            <h6>SHADOWBALL® CONSTRUCT 1.0
+              TRAINING RUGBY BALL <br> <br> R179.00 – R279.00</h6>
+            <img src="./img/products/rugbyballs/rugbytraining.jpg" alt="SHADOWBALL® CONSTRUCT 1.0 TRAINING RUGBY BALL">
+          </a>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Add to cart</a>
+        </div>
+        <div class="col-sm">
+          <a href="./html/shadowwall/shadowwall.html">
+            <h6>THE SHADOWWALL® TRAINING WALL FOR SHADOWBALL® <br> <br> R3,500.00</h6>
+            <img src="./img/products/shadowwall/shadowwall.jpg" alt="SHADOWBALL® PASS BOOSTER
+        PROGRAM PACK – SIZE 5">
+          </a>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VdRpYyK36eQ" allowfullscreen></iframe>
+  </div>
+
+
+  <div class="container-blog-wrapper">
+    <div class="container-blog">
+      <h3>ShadowBall® Blog</h3>
+      <div class="row">
+        <div class="col-sm">
+          <p></p>
+          <a href="./html/blog/holidaycamp.html"> <img src="./img/blog/1.png" alt="SHADOWBALL® PASS BOOSTER
+            PROGRAM PACK – SIZE 5">
+            <p>There is nothing worse than seeing your kid sit at
+              home all holiday watching TV😩 . Kids who who are
+              kept active & discovering new skills in the holidays
+              develop quicker than their peers, and that’s a fact
+              according to Malcolm Gladwell, author of Outliers
+              and the person who popularised the 10 000 to
+              master a skill concept... <b> Read More >> </b></p>
+          </a>
+        </div>
+        <div class="col-sm">
+          <a href="./html/blog/shadowacademy.html">
+            <img src="./img/blog/2.png" alt="SHADOWBALL® PASS BOOSTER
+            PROGRAM PACK – SIZE 5">
+            <p>World renowned Ref Rasta Rashivenge joined us to upskill
+              some incredibly bright kids from Lacreuse Community
+              Rugby Project and take a ShadowBall Challenge. Alongside
+              Mitsubishi SA General Manager Nic Campbell and
+              Gcobani Bobo, some good work was done.
+              Hosted by Trinityhouse School Randpark Ridge at the
+              ShadowBall Academy. This rugby skills development day
+              focussed on transferring vital passing and catching skills
+              and life skills to the kids to the young...<b> Read More >> </b></p>
+          </a>
+        </div>
+        <div class="col-sm">
+          <a href="./html/blog/hammanskraal.html">
+            <img src="./img/blog/3.png" alt="SHADOWBALL® PASS BOOSTER
+            PROGRAM PACK – SIZE 5">
+            <p>The ShadowBall Pass Booster programme – in
+              association with the Hamaanskraal Sports Company,
+              Touch Rugby South Africa and Gauteng Touch Rugby
+              Association – not only teaches physical skills such as
+              passing and catching and hand-eye co-ordination, but
+              also helps learners master other life skills such as
+              teamwork, respect, and discipline through the
+              experience they gain on the field... <b> Read More >> </b></p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="footer-wrapper">
+    <div class="footer">
+      <div class="row">
+        <div class="col-sm">
+          <p><b>© 2020 Copyright Shadowball. All rights reserved. </b></p>
+        </div>
+        <div class="col-sm">
+
+          <img src="./img/Shadow_ball_logo.png" alt="SHADOWBALL® PASS BOOSTER
+            PROGRAM PACK – SIZE 5">
+        </div>
+        <div class="col-sm">
+          <a href="./index.html">Home</a>
+          <a href="./html/shop.html">Shop</a>
+          <a href="./html/about.html">About us</a>
+          <a href="./html/contactus.html">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
